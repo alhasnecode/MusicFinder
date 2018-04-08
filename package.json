@@ -1,8 +1,8 @@
 {
-  "name": "vue-onsenui-kitchensink",
-  "description": "Kitchen Sink example for Onsen UI 2 Vue extension.",
-  "version": "0.0.1",
-  "author": "Fran Dios <me@frandiox.com>",
+  "name": "MusicFinder",
+  "description": "Application simple pour accèder aux ressources de musique",
+  "version": "1.0.0",
+  "author": "Mohamed ALHASNE <alhasne.mohamed@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0 --port 7000",
