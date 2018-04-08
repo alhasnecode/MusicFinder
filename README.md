@@ -1,31 +1,14 @@
-# Vue Onsen UI Kitchen Sink
+# MusicFinder
 
-This is a sample app featuring **Onsen UI 2 + Vue**. This version uses **Vuex** to share the state among components.
+Une application smartphone compatible Android / iOS pour trouver facilement vos artistes, albums et chansons préférés
+. Cette appli est développée avec **Vuejs**, **Vuex**, **Onsenui**, **Cordova** et utilise l'API web de **Spotify**.
 
-> A version **without Vuex** is provided in [`no-vuex` branch](https://github.com/onsenui/vue-onsenui-kitchensink/tree/no-vuex).
+## Installation
 
-**Check out the [preview here](https://onsenui.github.io/vue-onsenui-kitchensink/)**.
+### iOS
 
-This project has been created with [vue-cli](https://github.com/vuejs/vue-cli) and [webpack-simple](https://github.com/vuejs-templates/webpack-simple) template. Webpack configuration has been modified to work with Onsen UI +2.2.0.
+Importer le projet dans l'environnement XCode depuis le repértoire `MusicFinder/mobile_apps/platforms/ios/MusicFinder.xcodeproj/`.
 
-## About CSS
+### Android
 
-Onsen UI bundles `css/onsen-css-components.css` wich can be directly included in an app. However, this example uses the source `css-components-src/src/onsen-css-components.css` where colors can be easily modified. In order to support this, [`postcss-cssnext`](https://github.com/MoOx/postcss-cssnext) must be used in Webpack.
-
-
-## Build Setup
-
-``` bash
-# install dependencies
-yarn install
-
-# serve with hot reload at localhost:8080
-yarn run dev
-
-# build for production with minification
-yarn run build
-```
-
-## Licensing
-
-[MIT License](LICENSE.md)
+Importer le fichier `MusicFinder/mobile_apps/platforms/android/build.gradle` dans l'environnement Android Studio ou installer depuis l'exécutable APK `MusicFinder/APK/music_finder.apk`.
